@@ -1,0 +1,232 @@
+@media (max-width: 767px){
+    header{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    .header-container{
+        max-width: 426px;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    .menu{
+        opacity: 0;
+        display: none;
+    }
+    .dope{
+        display: inline-block;
+    width: 32px;
+    height: 22px;
+    stroke: #2E2F42;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 3px;
+    }
+    .button-menu{
+        width: 40px;
+        height: 40px;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        opacity: 100%;
+        display: inline-block;
+    }
+    .liza{
+        display: flex;
+        gap: 80px;
+        align-items: center;
+    }
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+}
+.number-one{
+margin-bottom: 35px;
+display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-text{
+    opacity: 0;
+    display: none;
+}
+.footer-title{
+    opacity: 0;
+    display: none;
+}
+.popupe{
+    opacity: 0;
+    display: none;
+}
+.modal{
+    top: 130%;
+}
+.menu-container {
+    position: fixed;
+
+    height: 100%;
+    top: 0;
+    left: 105px;
+padding-left: 40px;
+padding-bottom: 40px;
+padding-top: 80px;
+padding-right: 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);    
+    z-index: 999;
+    transform: translateX(100%);
+    transition: transform 250ms ease-in-out;
+    opacity: 100%;
+    display: block;
+    width: 100%;
+
+  }
+  .menu-container.is-open {
+    transform: translateX(0);
+    left: 0px;
+  }
+  .menu-container .menu-toggle {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    color: #FFFFFF;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: none;
+    background-color: #FFFFFF;
+ 
+  }
+  .hrest{
+    position: absolute;
+    cursor: pointer;
+    border: none;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    fill: black;
+  }
+  .hrest:hover{
+    fill: #16A0CC;
+}
+.hrest:focus{
+    fill: #16A0CC;
+}
+.social-media{
+    display: flex;
+    align-items: center;
+    margin-top: 65px;
+    gap: 30px;
+}
+.footer-span1{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 23px;
+line-height: 1.2;
+display: flex;
+align-items: center;
+text-align: center;
+color: #16A0CC;
+
+}
+.footer-span1:focus{
+font-weight: 700;
+font-size: 28px;
+color: #0770e9;
+}
+.footer-span1:hover{
+font-weight: 700;
+font-size: 28px;
+color: #0770e9;
+}
+.footer-gmail1:focus{
+font-weight: 700;
+font-size: 28px;
+}
+.footer-gmail1:hover{
+font-weight: 700;
+font-size: 28px;
+}
+.header-menu1:hover{
+    color: #0770e9;
+    font-weight: 700;
+}
+.header-menu1:focus{
+    color: #0770e9;
+    font-weight: 700;
+}
+.header-menu1{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 1.2;
+display: flex;
+align-items: center;
+text-align: center;
+color: #16A0CC;
+position: relative;
+text-decoration-line: none;
+}
+.menu1{
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 65px;
+}
+.footer-gmail1{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 23px;
+line-height: 1.2;
+display: flex;
+align-items: center;
+text-align: center;
+color: rgba(0, 0, 0, 0.78);
+text-decoration-line: none;
+
+}
+.vector1{
+    fill: #FFFFFF;
+}
+.insta1{
+display: flex;
+align-items: center;
+justify-content: center;
+width: 40px;
+height: 40px;
+border-radius: 50%;
+border: none;
+background-color: #16A0CC;
+}
+.facebook1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    background-color: #16A0CC;
+
+}
+.facebook1:hover{
+    background-color: #0770e9;
+}
+.facebook1:focus{
+    background-color: #0770e9;
+}
+.insta1:hover{
+    background-color: #0770e9;
+}
+.insta1:focus{
+    background-color: #0770e9;
+}
+}
