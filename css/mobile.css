@@ -60,7 +60,8 @@ display: flex;
     display: none;
 }
 .modal{
-    top: 130%;
+    top: 63%;
+
 }
 .menu-container {
     position: fixed;
