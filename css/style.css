@@ -453,9 +453,9 @@ margin: 0 auto;
 position: absolute;
 transform: translate(-50%, -50%);
     left: 50%;
-    top: 63%;
-width: 424px;
-height: 517px;
+    top: 57%;
+width: 425px;
+height: 550px;
 background: #FFFFFF;
 border: 1px solid #000000;
 padding-left: 34px;
@@ -715,4 +715,8 @@ justify-content: center;
     justify-content: center;
     margin-top: 15px;
     gap: 5px;
+  }
+  .avangard{
+    opacity: 0;
+    display: none;
   }
