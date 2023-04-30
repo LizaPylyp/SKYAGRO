@@ -12,9 +12,7 @@
     .footer-agro{
         margin-bottom: 6px;
     }
-    .container-avangard{
-        max-width: 425px;
-    }
+
 
     .video-works{
         display: flex;
@@ -27,7 +25,10 @@
         }
         .zip{
             overflow: hidden;
-            margin: 0 auto;
+        margin-left: auto;
+        margin-right: auto;
+
+
             }
         .video-nextt{
             background: #EAE8E89E    ;
@@ -41,6 +42,28 @@
         justify-content: center;
           }
           .video-prew{
+            background:  #EAE8E89E;
+        box-shadow: 0px 4px 4px rgba(36, 25, 25, 0.25);
+        border-radius: 42px;
+        border: none;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+          }
+          .video-nexttt{
+            background: #EAE8E89E    ;
+        box-shadow: 0px 4px 4px rgba(36, 25, 25, 0.25);
+        border-radius: 42px;
+        border: none;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+          }
+          .video-preww{
             background:  #EAE8E89E;
         box-shadow: 0px 4px 4px rgba(36, 25, 25, 0.25);
         border-radius: 42px;
@@ -130,14 +153,15 @@ border-radius: 42px;
 border: none;
 margin-left: auto;
 margin-right: auto;
-max-width: 1200px;
-padding-top: 59px;
-padding-bottom: 59px;
+max-width: 425px;
+padding-top: 30px;
+padding-bottom: 30px;
     opacity: 100;
-    display: flex;
+    display: block;
+
 }
 .modal{
-    top: 66%;
+    top: 50%;
 
 }
 .menu-container {
@@ -320,5 +344,68 @@ margin-bottom: 40px;
 text-align: center;
 color: #32822D;
 
+}
+}
+@media (max-width: 425px){
+.avangard-1{
+    margin-left: 18px;
+    margin-right: 15px;
+}
+.avangard-2{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.avangard-3{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.avangard-4{
+    margin-left: 32px;
+    margin-right: 0px;
+}
+.knopkuu{
+    opacity: 0;
+    display: none;
+}
+.knopkuuu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    gap: 5px;
+    opacity: 100%;
+
+  }
+  .closer{
+    right: 9px;
+    top: 9px;
+  }
+  .modal{
+    width: 320px;
+    height: 480px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .forma__tutor{
+    font-size: 15px;
+    margin-top: 35px;
+    margin-bottom: 28px;
+  }
+  .forma__hp12{
+    width: 280px;
+    height: 30px;
+  }
+  .forma__len{
+    width: 280px;
+    height: 30px;
+  }
+
+.forma__macb {
+    width: 280px;
+    height: 30px;
+}
+.forma__blb{
+    width: 280px;
+    height: 30px;
 }
 }
