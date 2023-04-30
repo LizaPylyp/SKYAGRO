@@ -716,6 +716,13 @@ justify-content: center;
     margin-top: 15px;
     gap: 5px;
   }
+  .knopku{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    gap: 5px;
+  }
   .knopkuuu{
     opacity: 0;
     display: none;
