@@ -60,7 +60,7 @@
     margin-left: 8px;
 }
 .modal{
-    top: 67%;
+    top: 50%;
 }
 .menu-container{
     opacity: 0;
@@ -70,4 +70,8 @@
     opacity: 0;
     display: none;
 }
+.knopkuuu{
+    opacity: 0;
+    display: none;
+  }
 }
