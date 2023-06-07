@@ -7,6 +7,6 @@ $volume= filter_var(trim($_POST['volume']),
 FILTER_SANITIZE_STRING);
 $telefon= filter_var(trim($_POST['telefon']),
 FILTER_SANITIZE_STRING);
-$mysql = new mysqli('localhost', 'skyagro8_skymodal', 'sky17-sky3108', 'skyagro8_skymodal');
+$mysql = new mysqli('localhost', 'Forma', 'sky17-sky3108', 'skyagro8_skymodal');
 $mysql-> close();
 ?>
