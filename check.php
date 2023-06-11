@@ -29,4 +29,5 @@ if ($stmt->execute()) {
 
 $stmt->close();
 $mysqli->close();
+header('Location: /')
 ?>
