@@ -413,7 +413,8 @@ color: #32822D;
     
     .menu-text1{
         transform: translateX(110%);
-        
+        width: auto;
+        height: auto;
     }
     .poslygu{
         display: flex;
@@ -421,13 +422,17 @@ color: #32822D;
         align-items: center;
         overflow: hidden;
     }
-    .menu-text:focus{
+    .menu-text:hover{
         transform: translateX(-110%);
     }
-    .menu-text:focus + .menu-text1{
+    .menu-text:hover + .menu-text1{
         transform: translateX(-53%);
     }
-    .menu-text1:focus+ .menu-text{
+    .menu-text1:hover+ .menu-text{
         transform: translateX(-110%);
+    }
+    .menu-text{
+        width: auto;
+        height: auto;
     }
 }
