@@ -415,6 +415,7 @@ color: #32822D;
         transform: translateX(110%);
         width: auto;
         height: auto;
+        position: absolute;
     }
     .poslygu{
         display: flex;
