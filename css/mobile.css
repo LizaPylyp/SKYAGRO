@@ -409,3 +409,25 @@ color: #32822D;
     height: 30px;
 }
 }
+@media (max-width: 510px){
+    
+    .menu-text1{
+        transform: translateX(110%);
+        
+    }
+    .poslygu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+    .menu-text:focus{
+        transform: translateX(-110%);
+    }
+    .menu-text:focus + .menu-text1{
+        transform: translateX(-53%);
+    }
+    .menu-text1:focus+ .menu-text{
+        transform: translateX(-110%);
+    }
+}
