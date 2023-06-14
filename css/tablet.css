@@ -23,6 +23,10 @@
     height: auto;
     width: 370px;
 }
+.menu-text1{
+    height: auto;
+    width: 370px;
+}
 .container-service {
     padding-left: 45px;
     padding-right: 45px;
@@ -73,5 +77,8 @@
 .knopkuuu{
     opacity: 0;
     display: none;
+  }
+  .poslygu{
+    gap : 20px;
   }
 }
