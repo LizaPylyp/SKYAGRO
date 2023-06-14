@@ -429,7 +429,7 @@ color: #32822D;
         transform: translateX(-110%);
     }
     .menu-text:hover + .menu-text1{
-        transform: translateX(-70%);
+        transform: translateX(0%);
         display:block;
         opacity:100%;
     }
