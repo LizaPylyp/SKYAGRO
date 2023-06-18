@@ -10,10 +10,8 @@
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
-/>
+
+<link rel="stylesheet" href="./css/swiper-bunde.min.css">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/tablet.css">
@@ -99,37 +97,35 @@
     </div>
 <section class="service" id="service">
     <div class="swiper">
- 
-        <ul  class="swiper-wrapper">
-   
-            <li class="swiper-slide">
-                <h1 class="title">ПОСЛУГА</h1>
-                <p class="text">
-                    Наша компанія надає послуги по десикації АГРОДРОНАМИ.
-                    Досвідчені та сертифіковані пілоти  швидко та якісно проведуть обробку посівів. 
-                    Адже десикація дозволить:
-                    Пришвидшити достигання культури мінімум на 5–10 днів;
-                    забезпечить рівномірне достигання;
-                    зупинити розповсюдження хвороб;                                                                               
-                    нульове пошкодження посівів.</p>
-            </li>
-            <li  class="swiper-slide"> <h1 class="titlee">ОПЛАТА</h1>
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+                 <h1 class="title">ПОСЛУГА</h1>
+            <p class="text">
+                Наша компанія надає послуги по десикації АГРОДРОНАМИ.
+                Досвідчені та сертифіковані пілоти  швидко та якісно проведуть обробку посівів. 
+                Адже десикація дозволить:
+                Пришвидшити достигання культури мінімум на 5–10 днів;
+                забезпечить рівномірне достигання;
+                зупинити розповсюдження хвороб;                                                                               
+                нульове пошкодження посівів.</p>
+            </div>
+          <div class="swiper-slide">
+             <h1 class="titlee">ОПЛАТА</h1>
             <p class="text">
             Ціна від 320грн/га. 
 Для детального прорахунку звертайтесь за телефоном або заповнюйте заявку і з вами зв’яжуться для консультації 
 : +380(63)275 88 27
 +380(97)560 58 57
         </p>
-    </li>
-        </ul>
-        
-        <div class="swiper-pagination"></div>
-
-        <div class="swiper-button-prev"> </div>
-        <div class="swiper-button-next"></div>
-    
+    </div>
+       
+         
+        </div>
         <div class="swiper-scrollbar"></div>
-     
+      </div>
+        
    
 </section>
 <section class="popupe" id="our-products">
@@ -253,6 +249,11 @@
     <script src="./js/mobile.menu.js"></script>
     <script src="./js/sliker.js"></script>
     <script src="./check.php"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script type="module">
+        import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.esm.browser.min.js'
+      
+        const swiper = new Swiper('.swiper')
+      </script>
+    <script src="./js/swiper-bunde.min.js"></script>
 </body>
 </html>
